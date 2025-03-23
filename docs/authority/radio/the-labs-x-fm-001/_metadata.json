@@ -232,7 +232,7 @@
        ]
     }
   ],
-  "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklis8.txt"
+  "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklist8.txt"
 },
 {
   "id": "9",
@@ -259,7 +259,7 @@
        ]
     }
   ],
-  "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklis9.txt"
+  "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklist9.txt"
 },
 {
   "id": "10",
@@ -292,6 +292,45 @@
       ]
    }
   ],
-  "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklis10.txt"
+  "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklist10.txt"
+},
+{
+  "id": "11",
+  "name": "The Labs X FM (DLC 11)",
+  "date": "2024-03-23",
+  "songs": 12,
+  "size": 114146346,
+  "version": 3.1,
+  "builder": "dynelarsen",
+  "buildtype": "production",
+  "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc11",
+  "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=mkENLy93u0UiV1E6pBNgbTus37ewyIRK1IIC",
+  "hosts": [
+     {
+        "hostuser": "cliff lane",
+        "versions": [
+           "zero"
+        ]
+     },
+     {
+       "hostuser": "andee",
+       "versions": [
+          "zero"
+       ]
+    },
+    {
+      "hostuser": "jeff berlin",
+      "versions": [
+         "zero"
+      ]
+   },
+   {
+     "hostuser": "jonathan moore",
+     "versions": [
+        "internal"
+     ]
+  }
+  ],
+  "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklist11.txt"
 }
 ]
