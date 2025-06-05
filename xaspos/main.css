@@ -4,7 +4,8 @@
 
 :root {
   --link: #1D4F91;
-  --link-alt: #911D1D;
+  --link-red: #911D1D;
+  --link-green: #148F40;
   --background: #FFFFFF;
   --ffamily-code: "IBM Plex Mono",ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
@@ -13,7 +14,8 @@
   :root {
     color-scheme: dark;
     --link: #6CACE4;
-    --link-alt: #EB6060;
+    --link-red: #EB6060;
+    --link-green: #18B955;
     --background: #000000;
   }
 }
@@ -47,6 +49,11 @@ a:link, a:visited {
 }
 
 a.nolink {
-  color: var(--link-alt);
+  color: var(--link-red);
+  pointer-events: none;
+}
+
+a.weekly {
+  color: var(--link-green);
   pointer-events: none;
 }
