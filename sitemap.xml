@@ -7,15 +7,21 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>https://cabinet.bbjprojek.org/archive</loc>
+    <lastmod>2024-12-31</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabinet.bbjprojek.org/about</loc>
-    <lastmod>2024-07-10</lastmod>
+    <lastmod>2024-12-31</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/blog/</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-05-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -80,7 +86,7 @@
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/</loc>
-    <lastmod>2024-03-10</lastmod>
+    <lastmod>2025-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -133,19 +139,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc1/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc1</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc2/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc2</loc>
     <lastmod>2024-04-07</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc3/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc3</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
@@ -163,74 +169,92 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc1/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc1</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc2/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc2</loc>
     <lastmod>2024-02-06</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc3/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc3</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc4/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc4</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc5/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc5</loc>
     <lastmod>2024-03-29</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc6/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc6</loc>
     <lastmod>2024-05-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc7/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc7</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc8/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc8</loc>
     <lastmod>2024-06-24</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc9/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc9</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc10/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc10</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc11/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc11</loc>
     <lastmod>2025-03-23</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc11</loc>
+    <lastmod>2025-03-23</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc12</loc>
+    <lastmod>2025-06-06</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/</loc>
     <lastmod>2024-04-22</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/kio-beats/</loc>
+    <lastmod>2025-06-07</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
