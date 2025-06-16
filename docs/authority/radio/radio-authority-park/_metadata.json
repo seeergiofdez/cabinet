@@ -1,0 +1,114 @@
+[
+  {
+     "id": "0",
+     "name": "Radio Authority Park",
+     "date": "2023-12-30",
+     "songs": 36,
+     "size": 219975969,
+     "version": 1.0,
+     "builder": "sergio",
+     "buildtype": "production",
+     "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/",
+     "download_url": "https://pixeldrain.com/u/SXjYMVCF",
+     "hosts": [
+        {
+           "hostuser": "george lewis jr.",
+           "versions": [
+              "zero"
+           ]
+         }
+     ]
+  },
+  {
+    "id": "1",
+    "name": "Radio Authority Park (DLC 1)",
+    "date": "2024-01-29",
+    "songs": 10,
+    "size": 80108261,
+    "version": 1.0,
+    "builder": "sergio",
+    "buildtype": "production",
+    "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc1",
+    "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=8rk6lv4zAW2DV6rsHgSksvhId9qKImpRxScN",
+    "hosts": [
+      {
+         "hostuser": "george lewis jr.",
+         "versions": [
+            "zero"
+         ]
+       }
+   ]
+ },
+ {
+  "id": "2",
+  "name": "Radio Authority Park (DLC 2)",
+  "date": "2024-04-07",
+  "songs": 8,
+  "size": 71874341,
+  "version": 1.0,
+  "builder": "sergio",
+  "buildtype": "production",
+  "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc2",
+  "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=WU89azyuW58kAMhToneNflOfYFZ4Ny2QbCfR",
+  "hosts": [
+   {
+      "hostuser": "george lewis jr.",
+      "versions": [
+         "zero"
+      ]
+    }
+   ]
+},
+{
+  "id": "3",
+  "name": "Radio Authority Park (DLC 3)",
+  "date": "2024-06-25",
+  "songs": 12,
+  "size": 143281925,
+  "version": 1.0,
+  "builder": "sergio",
+  "buildtype": "production",
+  "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc3",
+  "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=WU89azyuW58kAMhToneNflOfYFZ4Ny2QbCfR",
+  "hosts": [
+     {
+        "hostuser": "george lewis jr.",
+        "versions": [
+           "zero"
+        ]
+     },
+     {
+       "hostuser": "alberto casado",
+       "versions": [
+          "zero"
+       ]
+    }
+  ]
+},
+{
+  "id": "4",
+  "name": "Radio Authority Park (DLC 4)",
+  "date": "2025-05-16",
+  "songs": 12,
+  "size": 129598085,
+  "version": 1.0,
+  "builder": "sergio",
+  "buildtype": "production",
+  "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc4",
+  "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=trjWKKkKDGE46DCdPFY9WUGiAoTLIdojFce1",
+  "hosts": [
+     {
+        "hostuser": "cliff lane",
+        "versions": [
+           "zero"
+        ]
+     },
+     {
+       "hostuser": "george lewis jr.",
+       "versions": [
+          "zero"
+       ]
+    }
+  ]
+}
+]
