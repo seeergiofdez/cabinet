@@ -110,5 +110,31 @@
        ]
     }
   ]
+},
+{
+  "id": "5",
+  "name": "Radio Authority Park (DLC 5)",
+  "date": "2025-05-17",
+  "songs": 12,
+  "size": 124365125,
+  "version": 1.0,
+  "builder": "sergio",
+  "buildtype": "production",
+  "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc5",
+  "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=Zw9oNzUEgfgTt0WbsasGyBGuquCdaVZUCGfq",
+  "hosts": [
+     {
+        "hostuser": "cliff lane",
+        "versions": [
+           "zero"
+        ]
+     },
+     {
+       "hostuser": "george lewis jr.",
+       "versions": [
+          "zero"
+       ]
+    }
+  ]
 }
 ]
