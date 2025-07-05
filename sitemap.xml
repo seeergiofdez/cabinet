@@ -272,7 +272,25 @@
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/</loc>
-    <lastmod>2024-04-22</lastmod>
+    <lastmod>2025-07-05</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/optional-packages/dlc1</loc>
+    <lastmod>2024-06-26</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/optional-packages/dlc2</loc>
+    <lastmod>2024-08-02</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/optional-packages/dlc3</loc>
+    <lastmod>2025-07-05</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
