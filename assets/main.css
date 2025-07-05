@@ -69,7 +69,7 @@ ol > li::marker {
 
 code {
   font-family: var(--ffamily-code);
-  color: var(--normal);
+  color: var(--inherit);
 }
 
 ::selection {
