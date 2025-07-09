@@ -370,7 +370,7 @@
    "id": "13",
    "name": "The Labs X FM (DLC 13)",
    "date": "2024-07-01",
-   "songs": 12,
+   "songs": 10,
    "size": 96983248,
    "version": 3.1,
    "builder": "dynelarsen",
@@ -398,6 +398,44 @@
     }
    ],
    "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklist13.txt"
+ },
+ {
+   "id": "14",
+   "name": "The Labs X FM (DLC 14)",
+   "date": "2024-08-01",
+   "songs": 12,
+   "size": 105161647,
+   "version": 3.1,
+   "builder": "sergio",
+   "buildtype": "production",
+   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc14",
+   "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=pigpBsTw52XKtwsWaI938YFZbvPp32RlWUIU",
+   "hosts": [
+      {
+         "hostuser": "cliff lane",
+         "versions": [
+            "zero"
+         ]
+      },
+      {
+        "hostuser": "andee",
+        "versions": [
+           "zero"
+        ]
+     },
+     {
+       "hostuser": "jeff berlin",
+       "versions": [
+          "zero"
+       ]
+    },
+    {
+      "hostuser": "lewis jr",
+      "versions": [
+         "zero"
+      ]
+   }
+   ],
+   "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklist14.txt"
  }
  ]
- 
