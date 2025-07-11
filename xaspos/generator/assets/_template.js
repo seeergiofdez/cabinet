@@ -31,7 +31,7 @@ var template = `<!DOCTYPE html>
 
 ##CONTENT##
 
-        <a href="##CONTENT_LINK##">##CONTENT_LINK##</a>
+        <a target="_blank" href="##CONTENT_LINK##">##CONTENT_LINK##</a>
 
   </pre>
   <!--endarticle-->
