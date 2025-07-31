@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2025 The BBJProjeK Organization -->
+
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex">
+  <title>[Ticket] GitLab CI and Pipelines</title>
+
+  <!-- CSS & Scripts -->
+  <link rel="stylesheet" href="/xaspos/main.css" />
+
+</head>
+<body>
+  <h1>[Ticket] GitLab CI and Pipelines</h1><br>
+  <b>rbautista@bbjprojek.org</b><br>
+  <i>Wed Jul 2 10:58:13 UTC 2025</i>
+  <ul>
+    <li>Previous message (by thread): <a href="/xaspos">[Ticket] The Labs X FM (DLC 13)</a>
+    <li>
+      <b>Messages ordered by:</b>
+      <a href="#date">[ date ]</a>
+      <a href="#thread">[ thread ]</a>
+      <a href="#author">[ author ]</a>
+      <a href="#topic">[ topic ]</a>
+    </li>
+  </ul><hr>
+  <!--beginarticle-->
+  <pre>
+
+Hi,
+In order to reduce GitLab's Usage Quotas of bbjprojek and ragyxo groups, it's encouraged to use one of the following recommendations:
+
+<b>Skipping CI when possible</b>
+You don't need to build a site or deploy a release everytime commits are pushed. Although this is the default behaviour for most of the repos (<a target="_blank" href="https://git.bbjprojek.org/wiki/-/blob/source/.gitlab-ci.yml?ref_type=heads">see this as an example</a>), it's not always necessary.
+You can add "[ci skip]" or "[skip ci]" on our last commit to be pushed, and GitLab will skip the pipeline for that push.
+
+Note that you always can manually generate a pipeline if you need, not needing to commit and push another changeset. See this <a target="_blank" href="https://git.bbjprojek.org/wiki/-/commit/e8d3be5a2eda3d5a4ca24adeef973d4a2dfcb141">other example</a>.
+
+<b>Set to manually build</b>
+You can also disable automatic pipelines on some projects that doesn't require to build periodically. To do so, go to repo settings, and go to pipelines configurator. You can set and remove rules for the pipeline.
+
+All these recommendatiosn will guarantee a better organization operation and reduce carbon footprint and become more sustainable.
+
+See you on the next pipeline
+Ruben Bautista
+
+        <a href="https://gitlab.com/groups/bbjprojek/-/usage_quotas">https://gitlab.com/groups/bbjprojek/-/usage_quotas</a>
+
+  </pre>
+  <!--endarticle-->
+  <hr><ul>
+    <li>Previous message (by thread): <a href="/xaspos">[Ticket] The Labs X FM (DLC 13)</a></li>
+    <li>
+      <b>Messages ordered by:</b>
+      <a href="#date">[ date ]</a>
+      <a href="#thread">[ thread ]</a>
+      <a href="#author">[ author ]</a>
+      <a href="#topic">[ topic ]</a>
+    </li>
+  </ul><br><br>
+
+</body>
+</html>
