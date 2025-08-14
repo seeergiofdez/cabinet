@@ -6,23 +6,23 @@ html {
   word-wrap: break-word;
   max-width: 1120px;
   margin: auto;
-  overflow-y: scroll;
 }
 
 body {
   background-color: var(--background);
+  font-family: var(--ffamily);
   margin: 5%;
 }
 
 /* Root Classes */
 :root {
-  --normal: #202020;
-  --normal-inv: #FFFFFF;
-  --heading: #404040;
+  --foreground: #202020;
+  --foreground-inv: #FFFFFF;
+  --background: #FFFFFF;
   --branding: #006A8E;
   --branding-op: #006A8E20;
   --branding-hos: #BB1420;
-  --background: #FFFFFF;
+  --heading: #404040;
   --ffamily: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --ffamily-code: ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
@@ -30,23 +30,18 @@ body {
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --normal: #FFFFFF;
-    --normal-inv: #202020;
-    --heading: #CCCCCC;
+    --foreground: #FFFFFF;
+    --foreground-inv: #202020;
+    --background: #121212;
     --branding: #48A9C5;
     --branding-op: #48A9C530;
     --branding-hos: #BB6969;
-    --background: #121212;
+    --heading: #CCCCCC;
     --header-normal: #202020;
   }
 }
 
 /* Main Layout */
-h1, h2, h3, h4, a, p, ol, ul {
-  font-family: var(--ffamily);
-  color: var(--normal);
-}
-
 h1, h2, h3, h4 {
   color: var(--heading);
 }
@@ -57,6 +52,10 @@ h1 {
 
 h3, h4 {
   font-style: italic;
+}
+
+a, p, li {
+  color: var(--foreground);
 }
 
 ol li, ul li {
@@ -73,7 +72,7 @@ code {
 }
 
 ::selection {
-  color: var(--normal-inv);
+  color: var(--foreground-inv);
   background: var(--branding);
 }
 
@@ -103,7 +102,7 @@ img.noradius {
 }
 
 button {
-  color: var(--normal-inv);
+  color: var(--foreground-inv);
   background-color: var(--branding);
   font-family: var(--ffamily);
   font-size: inherit;
