@@ -67,3 +67,14 @@ a.weekly {
   color: var(--link-green);
   pointer-events: none;
 }
+
+a.opweek {
+  color: #9E6912;
+}
+
+.raimg {
+  height: 1em;
+  width: 1em;
+  display: inline-flex;
+  align-self: center;
+}
