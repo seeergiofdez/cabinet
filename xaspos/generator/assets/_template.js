@@ -15,14 +15,8 @@ var template = `<!DOCTYPE html>
   <b>##AUTHOR_EMAIL##</b><br>
   <i>##DATE##</i>
   <ul>
-    <li>Previous message (by thread): <a href="/xaspos">[Ticket] ##PREVIOUS_TITLE##</a>
-    <li>
-      <b>Messages ordered by:</b>
-      <a href="#date">[ date ]</a>
-      <a href="#thread">[ thread ]</a>
-      <a href="#author">[ author ]</a>
-      <a href="#topic">[ topic ]</a>
-    </li>
+    <li>Previous message (by thread): <a href="/xaspos">[Ticket] ##PREVIOUS_TITLE##</a></li>
+    <li><b>Messages ordered by:</b><a href="#date">[ date ]</a><a href="#thread">[ thread ]</a><a href="#author">[ author ]</a><a href="#topic">[ topic ]</a></li>
   </ul><hr>
   <!--beginarticle-->
   <pre>
@@ -35,13 +29,7 @@ var template = `<!DOCTYPE html>
   <!--endarticle-->
   <hr><ul>
     <li>Previous message (by thread): <a href="/xaspos">[Ticket] ##PREVIOUS_TITLE##</a></li>
-    <li>
-      <b>Messages ordered by:</b>
-      <a href="#date">[ date ]</a>
-      <a href="#thread">[ thread ]</a>
-      <a href="#author">[ author ]</a>
-      <a href="#topic">[ topic ]</a>
-    </li>
+    <li><b>Messages ordered by:</b><a href="#date">[ date ]</a><a href="#thread">[ thread ]</a><a href="#author">[ author ]</a><a href="#topic">[ topic ]</a></li>
   </ul><br><br>
 
 </body>
