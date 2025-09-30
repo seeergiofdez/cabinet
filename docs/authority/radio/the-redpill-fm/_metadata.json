@@ -1,0 +1,109 @@
+[
+   {
+      "id": "0",
+      "name": "The Redpill FM",
+      "date": "2024-04-22",
+      "songs": 26,
+      "size": 249158549,
+      "version": 1.0,
+      "builder": "sergio",
+      "buildtype": "production",
+      "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/",
+      "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=1w8MPnnExuYsxDwrMHonHW5zwwcaQBUUyPZA",
+      "hosts": [
+         {
+            "hostuser": "jjrawlen",
+            "versions": [
+               "zero"
+            ]
+         }
+      ]
+    },
+    {
+     "id": "1",
+     "name": "The Redpill FM (DLC 1)",
+     "date": "2024-06-26",
+     "songs": 16,
+     "size": 164228284,
+     "version": 1.0,
+     "builder": "sergio",
+     "buildtype": "production",
+     "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/optional-packages/dlc1",
+     "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=NPBqOTa9LLKFBMmp3PjzOicS6pvxE8o8Apk2",
+     "hosts": [
+        {
+           "hostuser": "jjrawlen",
+           "versions": [
+              "zero"
+           ]
+        }
+     ]
+   },
+   {
+   "id": "2",
+   "name": "The Redpill FM (DLC 2)",
+   "date": "2024-08-02",
+   "songs": 14,
+   "size": 125346590,
+   "version": 1.0,
+   "builder": "sergio",
+   "buildtype": "production",
+   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/optional-packages/dlc2",
+   "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=NPBqOTa9LLKFBMmp3PjzOicS6pvxE8o8Apk2",
+   "hosts": [
+      {
+         "hostuser": "jjrawlen",
+         "versions": [
+            "zero"
+         ]
+      }
+   ]
+ },
+ {
+   "id": "3",
+   "name": "The Redpill FM (DLC 3)",
+   "date": "2025-07-05",
+   "songs": 16,
+   "size": 143332416,
+   "version": 1.0,
+   "builder": "sergio",
+   "buildtype": "production",
+   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/optional-packages/dlc3",
+   "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=jY1qP7AUZ4iFmm89p9UoNpggxgO9wPtKMW1k",
+   "hosts": [
+      {
+         "hostuser": "jjrawlen",
+         "versions": [
+            "zero"
+         ]
+      }
+   ]
+ },
+ {
+   "id": "4",
+   "name": "The Redpill FM (DLC 4)",
+   "date": "2025-09-30",
+   "songs": 12,
+   "size": 121142973,
+   "version": 1.0,
+   "builder": "sergio",
+   "buildtype": "production",
+   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/optional-packages/dlc4",
+   "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=SCNSob7dLFufWDUzoE2D8bEfpxFsIdF0BA2t",
+   "hosts": [
+      {
+         "hostuser": "jjrawlen",
+         "versions": [
+            "zero"
+         ]
+      },
+      {
+        "hostuser": "jmoore",
+        "versions": [
+           "zero"
+        ]
+     }
+   ],
+   "spotify_ids": "https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/optional-packages/_sptracklist14.txt"
+ }
+ ]
