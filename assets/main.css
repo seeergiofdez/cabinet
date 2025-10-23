@@ -229,3 +229,16 @@ a.box {
   50% {opacity: 1;}
   100% {opacity: 1;}
 }
+
+/* HVLD Display CSS */
+.horz { display: none; }
+@media screen and (orientation: landscape) {
+  .horz { display: block; }
+  .vert { display: none; }
+}
+
+.dark {display: none; }
+@media (prefers-color-scheme: dark) {
+  .dark { display: block; }
+  .light  { display: none; }
+}
