@@ -1,5 +1,5 @@
 # Cabinet
-The Cabinet (formerly Sergio's Personal Cabinet). A lightweight and static html5 page for posts and misc documentation. Hosts The Authority documentation, and XasPos.
+The Authority Cabinet (formerly Sergio's Personal Cabinet). A lightweight and static html5 page for posts and misc documentation. Hosts The Authority documentation, and XasPos.
 
 ## Serving
 Install npm dependencies:

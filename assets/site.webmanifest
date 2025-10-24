@@ -1,7 +1,7 @@
 {
-  "name": "Personal Cabinet",
+  "name": "The Authority Cabinet",
   "short_name": "Cabinet",
-  "description": "Sergio's Personal Cabinet",
+  "description": "The Authority Cabinet",
   "display": "standalone",
   "start_url": "/",
   "id": "/",
