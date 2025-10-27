@@ -156,5 +156,31 @@
        ]
     }
   ]
+},
+{
+  "id": "7",
+  "name": "Radio Authority Park (DLC 7)",
+  "date": "2025-10-27",
+  "songs": 10,
+  "size": 89009927,
+  "version": 1.0,
+  "builder": "sergio",
+  "buildtype": "production",
+  "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc7",
+  "download_url": "https://get.cdn.bbjprojek.org/download_private_full?token=tNKYsJvwcsHwvqDiicB5w6u9857gMJEPgmqs",
+  "hosts": [
+     {
+        "hostuser": "george lewis jr.",
+        "versions": [
+           "zero"
+        ]
+     },
+     {
+       "hostuser": "alberto casado",
+       "versions": [
+          "zero"
+       ]
+    }
+  ]
 }
 ]

@@ -5,17 +5,17 @@
 4. Quiero Equivocarme by Second
 5. Club de Fans de John Boy by Love of Lesbian
 6. El Mal by Viva Suecia
-7. Tierra by Siloe
-8. Subeme al Cielo by Siloe
-9. Que Vida tan Dura by Arde Bogota
-10. Viaje Epico hacia la Nada by Love of Lesbian
-11. Virtud y Castigo by Arde Bogota
-12. Crisalida by Love of Lesbian
+7. Tierra by Siloé
+8. Súbeme al Cielo by Siloé
+9. Que Vida tan Dura by Arde Bogotá
+10. Viaje Épico hacia la Nada by Love of Lesbian
+11. Virtud y Castigo by Arde Bogotá
+12. Crisálida by Love of Lesbian
 13. Palabras by Shinova
 14. Hoy Empieza Todo by Viva Suecia
 15. Viento de Oeste by Love of Lesbian
-16. Te Debo una Cancion by Shinova
-17. La Parte Dificil by Viva Suecia
+16. Te Debo una Canción by Shinova
+17. La Parte Difícil by Viva Suecia
 18. Los Irrompibles by Love of Lesbian
 19. Sesenta Memorias Perdidas by Love of Lesbian
 20. Ciudades en el Mar by Shinova
@@ -24,7 +24,7 @@
 23. Invierno Dulce by Second
 24. El Beso by Arde Bogota
 25. Esa Estrella by Siloe
-26. La Mirada de la Gente que Conspira by LOL
+26. La Mirada de la Gente que Conspira by Love of Lesbian
 
 ======== OPTIONAL PACKAGES ========
 == DLC 1 (January 29, 2024) ==
@@ -40,7 +40,7 @@
 10. Nivel Inexperto by Second
 
 == DLC 2 (April 7, 2024) ==
-1. Lo Siento by Viva Suecia & Dani Fernandez
+1. Lo Siento by Viva Suecia & Dani Fernández
 2. La Voz del Presidente by Viva Suecia
 3. Pequeña Gran Revolucion IZAL
 4. Te Van a Hacer Cambiar by Arde Bogota
@@ -81,7 +81,7 @@
 1. Lo que te Mereces by Viva Suecia
 2. El Último Día de Nuestras Vidas by Dani Martín
 3. Me has Invitado a Bailar by Dani Fernández
-4. Que nada nos pare by ELYELLa & La La Love You
+4. Que nada nos pare by ELYELLA & La La Love You
 5. Antiáereo by Arde Bogotá
 6. Como si Fueras a Morir Mañana by Leiva
 7. Contradicción by Love of Lesbian
@@ -95,10 +95,22 @@
 1. Perdón por no Llamar by Dani Fernández
 2. Te Prometo by Viva Suecia
 3. Nuestra Postal by Shinova
-4. Querer by VViva Suecia
+4. Querer by Viva Suecia
 5. Solo Estás Tú by Siloé & David Otero
 6. Berlín U5 by Zahara
 7. In Spain we Call it Soledad by Rigoberta Bandini
 8. Allí Donde Soliamos Gritar by Love of Lesbian
 9. Para Cambiar el Mundo by Shinova & Second
 10. Espina by Yarea
+
+== DLC 7 (October 27, 2025) ==
+1. Por no Bailar Contigo by Dani Fernández
+2. El Beso by Arde Bogotá
+3. Ester Expósito by Dani Martín
+4. Fuimos Felices Aquí by Viva Suecia
+5. Instante by Besmaya & Sidonie
+6. Tiro al Aire by Samuraï
+7. Tú y Yo Contra los Demás by Viva Suecia
+8. Cama Vacía by Pignoise & La La Love You
+9. Los Días más Duros by Comandante Twin
+10. Julia Ladouce by Second
