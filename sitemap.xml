@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2025-10-27</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
@@ -151,6 +151,12 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc7</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-authority-rock-radio/</loc>
     <lastmod>2024-01-22</lastmod>
     <changefreq>never</changefreq>
@@ -158,7 +164,7 @@
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/</loc>
-    <lastmod>2024-06-09</lastmod>
+    <lastmod>2025-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -249,6 +255,12 @@
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc14</loc>
     <lastmod>2025-08-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc15</loc>
+    <lastmod>2025-10-24</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
