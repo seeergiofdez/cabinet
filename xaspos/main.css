@@ -4,18 +4,20 @@
 
 :root {
   --link: #1D4F91;
-  --link-red: #911D1D;
+  --link-red: #BB1420;
   --link-green: #148F40;
+  --link-yellow: #9E6912;
   --background: #FFFFFF;
-  --ffamily-code: "IBM Plex Mono",ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  --ffamily-code: "IBM Plex Mono", ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
     --link: #6CACE4;
-    --link-red: #EB6060;
-    --link-green: #18B955;
+    --link-red: #BB6969;
+    --link-green: #2db962;
+    --link-yellow: #b99b2d;
     --background: #000000;
   }
 }
@@ -69,12 +71,5 @@ a.weekly {
 }
 
 a.opweek {
-  color: #9E6912;
-}
-
-.raimg {
-  height: 1em;
-  width: 1em;
-  display: inline-flex;
-  align-self: center;
+  color: var(--link-yellow);
 }
