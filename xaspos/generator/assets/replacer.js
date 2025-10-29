@@ -34,8 +34,8 @@ qs('#form').addEventListener('submit', (event) => {
   copied.style.opacity = 1;
   document.getElementById('output').select();
   document.execCommand('copy');
-  document.getElementById('copied').innerHTML = 'Copied';
-  delay(2000).then(() => {
+  document.getElementById('copied').innerHTML = 'Copied!';
+  delay(3000).then(() => {
     copied.style.opacity = 0;
   });
 });

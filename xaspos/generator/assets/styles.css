@@ -1,10 +1,11 @@
 /* Copyright (C) 2025 The BBJProjeK Organization */
 
 :root {
-  --normal: #121212;
-  --heading: #404040;
+  --foreground: #121212;
   --background: #FFFFFF;
+  --heading: #606060;
   --branding: #006A8E;
+  --border: #333333;
   --ffamily: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --ffamily-code: ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
@@ -12,9 +13,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --normal: #FFFFFF;
-    --heading: #757575;
+    --foreground: #FFFFFF;
     --background: #121212;
+    --heading: #757575;
     --branding: #48A9C5;
   }
 }
@@ -31,7 +32,7 @@ html, body {
   max-width: 450px;
   padding: 40px 40px 10px;
   border-radius: 8px;
-  border: 1px solid #333333;
+  border: 1px solid var(--border);
 }
 
 .header {
@@ -46,18 +47,18 @@ html, body {
 }
 
 h1 {
-  color: #var(--normal);;
+  color: var(--foreground);
   font-size: 24px;
   text-align: center;
   font-family: var(--ffamily);
-  font-weight: 400;
+  font-weight: normal;
 }
 
 h4 {
   color: var(--heading);
   text-align: center;
   font-family: var(--ffamily);
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .form {
@@ -77,17 +78,17 @@ h4 {
 
 input {
   width: 215px;
-  height: 20px;
-  border-radius: 4px;
+  height: auto;
+  border-radius: 8px;
   background-color: var(--background);
-  border: 1px solid #333333;
-  color: #var(--normal);;
+  border: 1px solid var(--border);
+  color: var(--foreground);
   padding: 13px 0;
   outline: none;
   text-indent: 15px;
   font-size: 15px;
   font-family: var(--ffamily-code);
-  transition: border-color 0.4s;
+  transition: border-color 0.6s;
 }
 
 input:focus {
@@ -97,12 +98,12 @@ input:focus {
   text-indent: 14px;
 }
 
-input:focus:required:invalid {
-  border-color: var(--branding);
-}
+/* input:focus:required:invalid {
+  border-color: var(--warning);
+} */
 
 input::placeholder {
-  color: #80868b;
+  color: var(--heading);
 }
 
 span, code {
@@ -110,111 +111,81 @@ span, code {
 }
 
 #copied {
-  color: #var(--normal);;
-  opacity: 0;
-  transition: .28s cubic-bezier(0.4, 0.0, 0.2, 1);
+  color: var(--foreground);
+  transition: .4s linear;
 }
 
 #generate {
   background-color: var(--branding);
-  border-radius: 4px;
+  border-radius: 8px;
   box-shadow: none;
-  width: 96px;
+  width: 120px;
   font-size: 15px;
   color: var(--background);
   padding: 11px 15px;
   border: 0;
-  outline: none;
   text-align: center;
   font-family: var(--ffamily);
-  transition: .28s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: .2s linear;
 }
 
-#generate:hover {
-  background-color: var(--branding);
-  box-shadow: 0 1px 1px 0 rgba(66, 133, 244, 0.45), 0 1px 3px 1px rgba(66, 133, 244, 0.3);
-}
-
-#generate:focus {
-  background-color: var(--branding);
+#generate:hover, #generate:focus {
+  background-color: var(--heading);
+  transition: .2s linear;
 }
 
 .output {
   margin: 8px auto 0;
-  min-width: 400px;
   text-align: center;
 }
 
 #output {
   min-width: 100%;
-  max-height: 24em;
-  min-height: 8em;
+  max-height: 40em;
+  min-height: 10em;
   resize: vertical;
-  border-radius: 4px;
-  border: 1px solid #333333;
+  border-radius: 8px;
+  border: 1px solid var(--border);
   background-color: var(--background);
-  color: #var(--normal);;
+  color: var(--foreground);
   outline: none;
   padding: 0;
   font-size: 14px;
   font-family: var(--ffamily-code);
 }
 
-.footer,
-ul, ol, li,
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: #757575;
+::selection {
+  color: var(--background);
+  background: var(--branding);
+}
+
+.footer, a:link, a:visited {
+  color: var(--heading);
   text-align: center;
   font-size: 14px;
   font-weight: 500;
   font-family: var(--ffamily);
 }
 
-/*** Phone sizes ***/
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 600px) {
   .card {
-    background-color: var(--background);
-    margin: 5px;
+    margin: 2px;
     max-width: 450px;
-    padding: 30px 40px 0;
+    padding: 20px 40px 0;
     border-radius: 0;
     border: 0;
   }
   .input {
     width: 100%;
-    margin: 8px auto;
+    margin: 6px auto;
     text-align: right;
-  }
-  .input:first-child {
-    margin-right: 16px;
   }
   input {
     width: 100%;
   }
-  #generate {
-    width: 96px;
-  }
   .output {
-    margin: 8px auto 0;
     width: 100%;
     min-width: 0;
     text-align: center;
-  }
-  #output {
-    width: 100%;
-    max-height: 24em;
-    min-height: 8em;
-    resize: vertical;
-    border-radius: 4px;
-    border: 1px solid #dadce0;
-    outline: none;
-    padding: 0;
-    font-size: 14px;
-  }
-  h4 {
-    margin: 20px;
   }
 }
