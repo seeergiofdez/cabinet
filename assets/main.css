@@ -19,6 +19,7 @@ body {
   --foreground: #202020;
   --foreground-inv: #FFFFFF;
   --background: #FFFFFF;
+  --background-alt: #F6F8FA;
   --branding: #006A8E;
   --branding-op: #006A8E20;
   --branding-hos: #BB1420;
@@ -33,6 +34,7 @@ body {
     --foreground: #FFFFFF;
     --foreground-inv: #202020;
     --background: #121212;
+    --background-alt: #202020;
     --branding: #48A9C5;
     --branding-op: #48A9C530;
     --branding-hos: #BB6969;
@@ -81,11 +83,6 @@ img.noradius {
 }
 
 /* Extra features */
-code {
-  font-family: var(--ffamily-code);
-  color: var(--inherit);
-}
-
 blockquote {
   margin: 0;
   padding: 0 15px;
@@ -106,6 +103,40 @@ a:link, a:visited {
 
 a.lsec {
   font-weight: normal;
+}
+
+/* Code and code blocks */
+pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+pre.break>code {
+  word-break: break-word;
+  word-wrap: break-word;
+  white-space: wrap;
+}
+
+pre {
+  padding: 1rem;
+  overflow: auto;
+  line-height: 1.45;
+  color: var(--foreground);
+  background-color: var(--background-alt);
+  border-radius: 6px;
+}
+
+code, tt {
+  padding: .2em .4em;
+  font-size: 85%;
+  white-space: break-spaces;
+  font-family: var(--ffamily-code);
+  color: var(--foreground);
+  padding: 0;
 }
 
 /* Footer Horizontal Bar */
@@ -226,11 +257,6 @@ a.box {
   content: "";
   display: table;
   clear: both;
-}
-
-/* SFP Timers */
-.h2o, .h3o {
-  color: var(--branding-hos);
 }
 
 /* Fading in and out Animation */
