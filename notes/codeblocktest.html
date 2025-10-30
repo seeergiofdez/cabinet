@@ -3,13 +3,13 @@
 
 <html lang="en">
 <head>
-  <title>Code Block Formatting Test</title>
+  <title>CSS Formatting Test</title>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Github-like code blocks in HTML. Work in progress">
+  <meta name="description" content="Github-like CSS in HTML. Work in progress">
   <meta name="author" content="The BBJProjeK Organization" />
-  <meta property="og:title" content="Code Block Formatting Test" /><meta property="og:type" content="Website" /><meta property="og:url" content="https://cabinet.bbjprojek.org" />
+  <meta property="og:title" content="CSS Formatting Test" /><meta property="og:type" content="Website" /><meta property="og:url" content="https://cabinet.bbjprojek.org" />
 
   <!-- Icons -->
   <link rel="shortcut icon" href="/assets/img/favicon.svg" />
@@ -37,7 +37,8 @@
   </nav>
   </header>
 
-  <h1>Code Block Formatting Test</h1>
+  <h1>CSS Formatting Test</h1>
+  <p>This page shows the minimal css used on this website. Also shows what is implemented, and how it renders, like if it were markdown.</p>
   <p>Just some testing, hey!</p>
   <pre><code>Supuestamente, ya yo te olvidé, pero son las 11 y 34 y de ti me acordé
 No te veo desde que me mudé, pero soñé contigo anoche y te saludé
@@ -52,20 +53,51 @@ Si piensas volver, me avisa', mientras yo sigo solo...
 Otra noche en Miami, otra noche sin ti</code></pre>
 
   <p>Y me pregunto que hubiera pasado, si estuviéramos juntos, aún enamorados.</p>
-  <h2>This is a h2 pharagraph</h2>
+  <h2>This is a h2 paragraph</h2>
   <p>Basically subtitles, all sections of a page, like this one should use h2, or h3 if its a subtitle inside the subtitle. Don't use h1 for it. h1 shall only be used for the page title.</p>
   <h3>Like this one</h3>
-  <p>The above text is an h3, it's a section inside the "This is a h2 pharagraph".</p>
+  <p>The above text is an h3, it's a section inside "This is a h2 paragraph".</p>
+  <p>Also, you can use summaries...</p>
+  <details><summary>A. Summary one</summary>
+    <p>This is more info about summary one.</p>
+  </details>
+  <details><summary>B. Summary two</summary>
+    <p>Ah shit, here we go again...</p>
+    <p>Should we indent summaries so we all know when does it finish? Yes? It's probably introduced for when you are reading this.</p>
+    <p>Anyway... to use summaries, use this code:</p>
+    <pre><code>&lt;details&gt;&lt;summary&gt;Summary title&lt;/summary&gt;<br>  &lt;p&gt;Content inside the summary.&lt;/p&gt;<br>&lt;/details&gt;</pre></code>
+  </details>
+  <p>That's how summaries work. Kudos to for indent trick: <a target="_blank" href="https://stackoverflow.com/questions/47848326/indent-all-children">https://stackoverflow.com/questions/47848326/indent-all-children</a>.</p>
+    <pre><code>details > *:not(summary) {<br>  margin-left: 1em;<br>}</code></pre>
+  <h2>Extra Features</h2>
+  <p>Some more stuff</p>
+  <mark>This is a mark</mark>
+  <p>We never used that, but here we go.</p>
+  <ul>
+    <li>The</li>
+    <li>Known</li>
+    <li>Unordered</li>
+    <li>List</li>
+  </ul>
+  <p>That was &lt;ul&gt; list.</p>
+  <ol>
+    <li>Use ol for ordering</li>
+    <li>Yes</li>
+  </ol>
+  <blockquote>This is a quote block. For what? Well, no idea.</blockquote><br>
+  <blockquote><i>"All I can say is never again. No love. No people. Just books. I love this place. Charm, built-in bookcases"</i><br>— Jonathan Moore</blockquote>
+  <p>That's the idea, yes.</p>
   <h2>Nothing else</h2>
   <p>This is HTML after all, you can use <b>bold</b>, <i>italic,</i>, or <u>underline</u>, just don't overuse it.</p>
-  <p>Btw, if you want to break the paragraph by word on the code block, use the "nocut" class:</p>
+  <p>Btw, if you want to break the paragraph by word on the code block, use the "break" class:</p>
   <pre class="break"><code>Ayer me acordé de la primera vez que te hice reír, de cuando te busqué, qué buenos tiempos aquellos. Recuerdos muy bellos, cuando te montaste y cambiaste la estación "nada de reggaetón", "ponme otra canción"...</code></pre>
   <p>If you don't use the class, it just won't wrap:</p>
   <pre><code>Ayer me acordé de la primera vez que te hice reír, de cuando te busqué, qué buenos tiempos aquellos. Recuerdos muy bellos, cuando te montaste y cambiaste la estación "nada de reggaetón", "ponme otra canción"...</code></pre>
-  <p>That's all for today.</p>
+  <p>That's all for today. Learn more about or improve the CSS at <a target="_blank" href="https://git.bbjprojek.org/cabinet/-/blob/master/assets/main.css?ref_type=heads">https://git.bbjprojek.org/cabinet/-/blob/master/assets/main.css?ref_type=heads</a>.</p>
+
 
   <hr class="foot">
-  <a>Updated on: October 28, 2025.</a><br>
+  <a>Updated on: October 30, 2025.</a><br>
   <a>Copyright © 2025 The BBJProjeK Organization</a>
 
 </body>
