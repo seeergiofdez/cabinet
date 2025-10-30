@@ -87,6 +87,11 @@ summary {
   font-size: 1.2em;
   font-weight: bold;
   color: var(--heading);
+  padding: .6rem 0rem;
+}
+
+details > *:not(summary) {
+  margin-left: 1em;
 }
 
 blockquote {
