@@ -83,6 +83,12 @@ img.noradius {
 }
 
 /* Extra features */
+summary {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--heading);
+}
+
 blockquote {
   margin: 0;
   padding: 0 15px;
