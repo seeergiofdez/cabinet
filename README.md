@@ -17,7 +17,6 @@ This website is intended to use really lightweight resources (with pages around 
 The main stylesheets are:
 * [main.css](/assets/main.css) is the main stylesheet which every page need, defined layout and colors
 * [blog.css](/assets/blog.css) is the stylesheet for blog headings, featuring the box with the date, topic and title
-* [display.css](/assets/main.css) is a stylesheet for showing different content depending on the orientation and the color theme of the device (horizontal, vertical, light, dark), useful for different tables or images (now merged into main.css).
 
 For JavaScript, the main ones are:
 * [lazysizes.min.js](https://github.com/aFarkas/lazysizes) which implements a SEO-friendly and self-initializing lazyloader for images.
