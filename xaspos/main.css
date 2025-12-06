@@ -1,6 +1,6 @@
 /* Copyright (C) 2025 The BBJProjeK Organization */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap');
 
 :root {
   --link: #1D4F91;
@@ -8,7 +8,7 @@
   --link-green: #148F40;
   --link-yellow: #9E6912;
   --background: #FFFFFF;
-  --ffamily-code: "IBM Plex Mono", ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  --ffamily-code: ui-monospace,SFMono-Regular, Consolas, "Roboto Mono", "Liberation Mono", Menlo, Courier, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,8 +16,8 @@
     color-scheme: dark;
     --link: #6CACE4;
     --link-red: #BB6969;
-    --link-green: #2db962;
-    --link-yellow: #b99b2d;
+    --link-green: #2DB962;
+    --link-yellow: #B99B2D;
     --background: #000000;
   }
 }
@@ -28,9 +28,15 @@ html {
 }
 
 body {
-  font-size: 85%;
+  font-size: 90%;
   background-color: var(--background);
   font-family: var(--ffamily-code);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 85%;
+  }
 }
 
 pre {
