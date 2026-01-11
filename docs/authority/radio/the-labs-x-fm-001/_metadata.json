@@ -472,7 +472,7 @@
     "spotify_ids":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklist15.txt"
   },
   {
-    "id":"15",
+    "id":"16",
     "name":"The Labs X FM (DLC 16)",
     "date":"2026-01-04",
     "songs":10,
@@ -503,5 +503,44 @@
       }
     ],
     "spotify_ids":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklist16.txt"
+  },
+  {
+    "id":"17",
+    "name":"The Labs X FM (DLC 17)",
+    "date":"2026-01-11",
+    "songs":12,
+    "size":121167554 ,
+    "version":3.1,
+    "builder":"dynelarsen",
+    "buildtype":"production",
+    "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc17",
+    "download_url":"https://get.cdn.bbjprojek.org/download_private_full?token=XZnDnpRhDqkyBRCSCNS3WKoK80AAbj9YSi0V",
+    "hosts":[
+      {
+        "hostuser":"cliff lane",
+        "versions":[
+          "zero"
+        ]
+      },
+      {
+        "hostuser":"andee",
+        "versions":[
+          "zero"
+        ]
+      },
+      {
+        "hostuser":"jonatham moore",
+        "versions":[
+          "zero"
+        ]
+      },
+      {
+        "hostuser":"twin shadow",
+        "versions":[
+          "zero"
+        ]
+      }
+    ],
+    "spotify_ids":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/_sptracklist17.txt"
   }
 ]
