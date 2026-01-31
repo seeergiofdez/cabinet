@@ -182,5 +182,31 @@
        ]
     }
   ]
+},
+{
+  "id": "8",
+  "name": "Radio Authority Park (DLC 8)",
+  "date": "2026-01-31",
+  "songs": 12,
+  "size": 136262303,
+  "version": 1.0,
+  "builder": "sergio",
+  "buildtype": "production",
+  "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc8",
+  "download_url": "https://ac.bbjprojek.org:444/infra/radio/silverlake/8.%20Radio%20Authority%20Park%20%28DLC%208%29.mp3",
+  "hosts": [
+     {
+        "hostuser": "george lewis jr.",
+        "versions": [
+           "zero"
+        ]
+     },
+     {
+       "hostuser": "alberto casado",
+       "versions": [
+          "zero"
+       ]
+    }
+  ]
 }
 ]
