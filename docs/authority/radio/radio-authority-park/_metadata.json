@@ -9,7 +9,7 @@
      "builder": "sergio",
      "buildtype": "production",
      "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/",
-     "download_url": "https://cy.bbjprojek.org:444/infra/radio/silverlake/0.%20Radio%20Authority%20Park.mp3",
+     "download_url": "https://ac.bbjprojek.org:444/infra/radio/silverlake/0.%20Radio%20Authority%20Park.mp3",
      "hosts": [
         {
            "hostuser": "george lewis jr.",
@@ -29,7 +29,7 @@
     "builder": "sergio",
     "buildtype": "production",
     "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc1",
-    "download_url": "https://cy.bbjprojek.org:444/infra/radio/silverlake/1.%20Radio%20Authority%20Park%20%28DLC%201%29.mp3",
+    "download_url": "https://ac.bbjprojek.org:444/infra/radio/silverlake/1.%20Radio%20Authority%20Park%20%28DLC%201%29.mp3",
     "hosts": [
       {
          "hostuser": "george lewis jr.",
@@ -49,7 +49,7 @@
   "builder": "sergio",
   "buildtype": "production",
   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc2",
-  "download_url": "https://cy.bbjprojek.org:444/infra/radio/silverlake/2.%20Radio%20Authority%20Park%20%28DLC%202%29.mp3",
+  "download_url": "https://ac.bbjprojek.org:444/infra/radio/silverlake/2.%20Radio%20Authority%20Park%20%28DLC%202%29.mp3",
   "hosts": [
    {
       "hostuser": "george lewis jr.",
@@ -69,7 +69,7 @@
   "builder": "sergio",
   "buildtype": "production",
   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc3",
-  "download_url": "https://cy.bbjprojek.org:444/infra/radio/silverlake/3.%20Radio%20Authority%20Park%20%28DLC%203%29.mp3",
+  "download_url": "https://ac.bbjprojek.org:444/infra/radio/silverlake/3.%20Radio%20Authority%20Park%20%28DLC%203%29.mp3",
   "hosts": [
      {
         "hostuser": "george lewis jr.",
@@ -95,7 +95,7 @@
   "builder": "sergio",
   "buildtype": "production",
   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc4",
-  "download_url": "https://cy.bbjprojek.org:444/infra/radio/silverlake/4.%20Radio%20Authority%20Park%20%28DLC%204%29.mp3",
+  "download_url": "https://ac.bbjprojek.org:444/infra/radio/silverlake/4.%20Radio%20Authority%20Park%20%28DLC%204%29.mp3",
   "hosts": [
      {
         "hostuser": "cliff lane",
@@ -121,7 +121,7 @@
   "builder": "sergio",
   "buildtype": "production",
   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc5",
-  "download_url": "https://cy.bbjprojek.org:444/infra/radio/silverlake/5.%20Radio%20Authority%20Park%20%28DLC%205%29.mp3",
+  "download_url": "https://ac.bbjprojek.org:444/infra/radio/silverlake/5.%20Radio%20Authority%20Park%20%28DLC%205%29.mp3",
   "hosts": [
      {
         "hostuser": "cliff lane",
@@ -147,7 +147,7 @@
   "builder": "sergio",
   "buildtype": "production",
   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc6",
-  "download_url": "https://cy.bbjprojek.org:444/infra/radio/silverlake/6.%20Radio%20Authority%20Park%20%28DLC%206%29.mp3",
+  "download_url": "https://ac.bbjprojek.org:444/infra/radio/silverlake/6.%20Radio%20Authority%20Park%20%28DLC%206%29.mp3",
   "hosts": [
      {
        "hostuser": "george lewis jr.",
@@ -167,7 +167,7 @@
   "builder": "sergio",
   "buildtype": "production",
   "info_url": "https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc7",
-  "download_url": "https://cy.bbjprojek.org:444/infra/radio/silverlake/7.%20Radio%20Authority%20Park%20%28DLC%207%29.mp3",
+  "download_url": "https://ac.bbjprojek.org:444/infra/radio/silverlake/7.%20Radio%20Authority%20Park%20%28DLC%207%29.mp3",
   "hosts": [
      {
         "hostuser": "george lewis jr.",

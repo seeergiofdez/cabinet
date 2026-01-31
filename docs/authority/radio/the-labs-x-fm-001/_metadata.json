@@ -9,7 +9,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/0.%20The%20Labs%20X%20FM.mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/0.%20The%20Labs%20X%20FM.mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -35,7 +35,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc1",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/1.%20The%20Labs%20X%20FM%20(DLC%201).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/1.%20The%20Labs%20X%20FM%20(DLC%201).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -61,7 +61,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc2",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/2.%20The%20Labs%20X%20FM%20(DLC%202).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/2.%20The%20Labs%20X%20FM%20(DLC%202).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -87,7 +87,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc3",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/3.%20The%20Labs%20X%20FM%20(DLC%203).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/3.%20The%20Labs%20X%20FM%20(DLC%203).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -113,7 +113,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc4",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/4.%20The%20Labs%20X%20FM%20(DLC%204).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/4.%20The%20Labs%20X%20FM%20(DLC%204).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -139,7 +139,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc5",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/5.%20The%20Labs%20X%20FM%20(DLC%205).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/5.%20The%20Labs%20X%20FM%20(DLC%205).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -165,7 +165,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc6",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/6.%20The%20Labs%20X%20FM%20(DLC%206).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/6.%20The%20Labs%20X%20FM%20(DLC%206).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -191,7 +191,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc7",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/7.%20The%20Labs%20X%20FM%20(DLC%207).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/7.%20The%20Labs%20X%20FM%20(DLC%207).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -217,7 +217,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc8",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/8.%20The%20Labs%20X%20FM%20(DLC%208).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/8.%20The%20Labs%20X%20FM%20(DLC%208).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -244,7 +244,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc9",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/9.%20The%20Labs%20X%20FM%20(DLC%209).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/9.%20The%20Labs%20X%20FM%20(DLC%209).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -271,7 +271,7 @@
     "builder":"dynelarsen",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc10",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/10.%20The%20Labs%20X%20FM%20(DLC%2010).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/10.%20The%20Labs%20X%20FM%20(DLC%2010).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -304,7 +304,7 @@
     "builder":"dynelarsen",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc12",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/11.%20The%20Labs%20X%20FM%20(DLC%2011).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/11.%20The%20Labs%20X%20FM%20(DLC%2011).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -337,7 +337,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc12",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/12.%20The%20Labs%20X%20FM%20(DLC%2012).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/12.%20The%20Labs%20X%20FM%20(DLC%2012).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -376,7 +376,7 @@
     "builder":"dynelarsen",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc13",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/13.%20The%20Labs%20X%20FM%20(DLC%2013).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/13.%20The%20Labs%20X%20FM%20(DLC%2013).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -409,7 +409,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc14",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/14.%20The%20Labs%20X%20FM%20(DLC%2014).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/14.%20The%20Labs%20X%20FM%20(DLC%2014).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -448,7 +448,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc15",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/15.%20The%20Labs%20X%20FM%20(DLC%2015).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/15.%20The%20Labs%20X%20FM%20(DLC%2015).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -481,7 +481,7 @@
     "builder":"sergio",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc16",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/16.%20The%20Labs%20X%20FM%20(DLC%2016).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/16.%20The%20Labs%20X%20FM%20(DLC%2016).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
@@ -514,7 +514,7 @@
     "builder":"dynelarsen",
     "buildtype":"production",
     "info_url":"https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc17",
-    "download_url":"https://cy.bbjprojek.org:444/infra/radio/thelabsxfm/17.%20The%20Labs%20X%20FM%20(DLC%2017).mp3",
+    "download_url":"https://ac.bbjprojek.org:444/infra/radio/thelabsxfm/17.%20The%20Labs%20X%20FM%20(DLC%2017).mp3",
     "hosts":[
       {
         "hostuser":"cliff lane",
