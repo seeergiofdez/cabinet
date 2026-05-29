@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2026 The BBJProjeK Organization -->
+
+<html lang="en">
+<head>
+  <title>[Ticket] GitLab CE Migration Done</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="/xaspos/main.css" />
+
+</head>
+<body>
+  <h1>[Ticket] GitLab CE Migration Done</h1><br>
+  <b>dynelarsen@bbjprojek.org</b><br>
+  <i>Sun May 3 13:13:53 UTC 2026</i>
+  <ul>
+    <li>Previous message (by thread): <a href="/xaspos">[Ticket] Weekly No. 144. 27/04/2026 - 03/05/2026</a></li>
+    <li><b>Messages ordered by:</b><a href="#date">[ date ]</a><a href="#thread">[ thread ]</a><a href="#author">[ author ]</a><a href="#topic">[ topic ]</a></li>
+  </ul><hr>
+  <!--beginarticle-->
+  <pre>
+
+Hi,
+We just finished migrating our current GitLab instance (GitLab CE 16.5.8) to a new server with upgraded resources.
+
+The new host is running Ubuntu 22.04 LTS, same as before, and we’ve moved from manual backups to automated daily snapshots with 30-day retention. You'll notice significantly faster clone/push times and CI job execution.
+
+We also updated from legacy SSL certificates to Let’s Encrypt auto-renewal. Also, GitLab Pages are now enabled by default for all projects.
+
+
+<b>Actions required (if applicable):</b>
+* New IP: 178.105.67.97
+ — <i>Update any firewall rules or API integrations accordingly.</i>
+
+* If you have SSH keys tied to the old server’s host key, you’ll need to remove the old entry from ~/.ssh/known_hosts and reconnect.
+* CI runners using a custom server's instance must update their config.toml.
+
+
+No data loss... all repos, issues, merge requests, and CI artifacts have been verified intact. The old server will stay online in read-only mode for 24 hours.
+
+Thank you for your patience during the <a href="000501.html">cutover window (2 hours downtime last night)</a>.
+
+Let us know if you see any odd behavior. If you have issues, tell us on #gitlab at Slack.
+
+Thanks for being part of the org!
+
+        <a target="_blank" href="https://ax.bbjprojek.org/">https://ax.bbjprojek.org/</a>
+
+  </pre>
+  <!--endarticle-->
+  <hr><ul>
+    <li>Previous message (by thread): <a href="/xaspos">[Ticket] Weekly No. 144. 27/04/2026 - 03/05/2026</a></li>
+    <li><b>Messages ordered by:</b><a href="#date">[ date ]</a><a href="#thread">[ thread ]</a><a href="#author">[ author ]</a><a href="#topic">[ topic ]</a></li>
+  </ul><br><br>
+
+</body>
+</html>
