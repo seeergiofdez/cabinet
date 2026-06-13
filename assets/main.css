@@ -23,7 +23,8 @@ body {
   --branding-op: #006A8E20;
   --branding-hos: #BB1420;
   --heading: #404040;
-  --ffamily: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* temp --ffamily: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
+  --ffamily: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, "Liberation Mono", monospace;
   --ffamily-code: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, "Liberation Mono", monospace;
 }
 
@@ -179,13 +180,19 @@ hr.foot {
   }
 }
 
-
 button:hover {
   background: #9B9B9B;
 }
 
 #iframeContainer {
   display: none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 5%;
+    font-size: 0.8rem;
+  }
 }
 
 /* HVLD Display CSS */
