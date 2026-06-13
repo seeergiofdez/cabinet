@@ -1,10 +1,9 @@
 /* Copyright (C) 2024 The BBJProjeK Organization */
 
 html {
-  font-size: 100%;
   scroll-behavior: smooth;
   word-wrap: break-word;
-  max-width: 1120px;
+  max-width: 820px;
   margin: auto;
 }
 
@@ -33,7 +32,7 @@ body {
     color-scheme: dark;
     --foreground: #FFFFFF;
     --foreground-inv: #202020;
-    --background: #121212;
+    --background: #000000;
     --background-alt: #202020;
     --branding: #48A9C5;
     --branding-op: #48A9C530;
@@ -46,10 +45,11 @@ body {
 /* Main Layout */
 h1, h2, h3, h4 {
   color: var(--heading);
+  font-family: var(--ffamily-code);
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2.4em;
 }
 
 h3, h4 {
@@ -77,6 +77,19 @@ img {
   max-width: 100%;
 }
 
+a:link, a:visited {
+  font-weight: bold;
+  color: var(--branding);
+}
+
+a:hover {
+  color: var(--heading);
+}
+
+h1, h2, h3, a, p {
+  text-decoration-style: dashed;
+}
+
 /* Extra features */
 summary {
   font-size: 1.2em;
@@ -100,11 +113,6 @@ mark {
   color: var(--foreground);
   background: var(--branding-op);
   border-radius: var(--border-radius);
-}
-
-a:link, a:visited {
-  font-weight: 500;
-  color: var(--branding);
 }
 
 a.lsec {
@@ -147,27 +155,30 @@ code, tt {
 
 /* Footer Horizontal Bar */
 hr.foot {
+  width: 80%;
   margin-top: 42px;
   margin-bottom: 16px;
   border: 2px solid;
   color: var(--branding);
 }
 
-/* Header-style Buttons */
-button {
-  color: var(--foreground-inv);
-  background-color: var(--branding);
-  font-family: var(--ffamily);
-  font-size: inherit;
-  margin-right: 6px;
-  margin-bottom: 6px;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  outline: 1px;
+.f1,.f2 {
+  font-family: var(--ffamily-code) !important;
 }
+
+.f2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .f1,.f2 {
+    font-size: 0.8rem;
+  }
+  .f2 {
+    /* margin: 5%; */
+  }
+}
+
 
 button:hover {
   background: #9B9B9B;
@@ -175,107 +186,6 @@ button:hover {
 
 #iframeContainer {
   display: none;
-}
-
-/*  Header Section */
-header {
-  background-color: var(--branding);
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.header-title {
-  font-size: 1.4rem;
-  padding-bottom: 1rem;
-  display: block;
-  text-align: center;
-  width: 100%;
-  margin: 0;
-  color: var(--background);
-  font-weight: bold;
-}
-
-.header-title:hover {
-  color: var(--background);
-}
-
-a.header-subtitle {
-  font-weight: normal;
-  color: var(--background);
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-left, .nav-middle, .nav-right {
-  flex-basis: 33%;
-  text-align: center;
-}
-
-.nav-left {
-  text-align: left;
-}
-
-.nav-right {
-  text-align: right;
-}
-
-nav a {
-  color: var(--background);
-  text-decoration: none;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-nav a:hover {
-  background-color: var(--background);
-  color: var(--heading);
-}
-
-/* Header-style Buttons */
-.box {
-  margin-top: -5px;
-  text-decoration: none;
-  width: auto;
-  color: #FFFFFF;
-  background-color: var(--branding);
-  padding: 10px;
-  border-radius: 10px;
-  font-weight: bold;
-}
-
-.box:hover {
-  border-color: var(--branding);
-  border-width: 2px;
-  border-style: solid;
-  background-color: var(--background);
-  color: var(--heading);
-}
-
-a.box {
-  color: var(--background);
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Fading in and out Animation */
-.header-title span {
-  animation: fadeInOut 0.2s forwards;
-  opacity: 0;
-  display: inline-block;
-}
-
-@keyframes fadeInOut {
-  49.98% {opacity: 0;}
-  50% {opacity: 1;}
-  100% {opacity: 1;}
 }
 
 /* HVLD Display CSS */
