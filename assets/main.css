@@ -154,7 +154,15 @@ code, tt {
   padding: 0;
 }
 
-/* Footer Horizontal Bar */
+/* Heading & Footer bars */
+hr.head {
+  width: 60px;
+  margin-left: 0;
+  margin-top: 12px;
+  border: 2px solid;
+  color: var(--branding);
+}
+
 hr.foot {
   width: 80%;
   margin-top: 42px;
