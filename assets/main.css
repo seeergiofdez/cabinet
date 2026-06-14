@@ -23,8 +23,7 @@ body {
   --branding-op: #006A8E20;
   --branding-hos: #BB1420;
   --heading: #404040;
-  /* temp --ffamily: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
-  --ffamily: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, "Liberation Mono", monospace;
+  --ffamily: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --ffamily-code: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, "Liberation Mono", monospace;
 }
 
@@ -40,14 +39,6 @@ body {
     --branding-hos: #BB6969;
     --heading: #CCCCCC;
     --header-normal: #202020;
-  }
-}
-
-/* temp when using monospacing fonts */
-@media screen and (max-width: 800px) {
-  body {
-    margin: 5%;
-    font-size: 0.8rem;
   }
 }
 
@@ -179,6 +170,10 @@ hr.foot {
   color: var(--branding);
 }
 
+header a {
+  font-family: var(--ffamily-code) !important;
+}
+
 .f1,.f2 {
   font-family: var(--ffamily-code) !important;
 }
@@ -188,10 +183,12 @@ hr.foot {
 }
 
 @media screen and (max-width: 800px) {
-  .f1,.f2 {
+  .f1,.f2,header a {
     font-size: 0.8rem;
   }
+
 }
+
 
 button:hover {
   background: #9B9B9B;
