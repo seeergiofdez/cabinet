@@ -43,6 +43,14 @@ body {
   }
 }
 
+/* temp when using monospacing fonts */
+@media screen and (max-width: 800px) {
+  body {
+    margin: 5%;
+    font-size: 0.8rem;
+  }
+}
+
 /* Main Layout */
 h1, h2, h3, h4 {
   color: var(--heading);
@@ -183,9 +191,6 @@ hr.foot {
   .f1,.f2 {
     font-size: 0.8rem;
   }
-  .f2 {
-    /* margin: 5%; */
-  }
 }
 
 button:hover {
@@ -194,13 +199,6 @@ button:hover {
 
 #iframeContainer {
   display: none;
-}
-
-@media screen and (max-width: 800px) {
-  body {
-    margin: 5%;
-    font-size: 0.8rem;
-  }
 }
 
 /* HVLD Display CSS */
