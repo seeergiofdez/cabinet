@@ -82,7 +82,7 @@ a:link, a:visited {
   color: var(--branding);
 }
 
-a:link:hover {
+a:link:hover,a:visited:hover {
   color: var(--heading);
 }
 
