@@ -189,11 +189,6 @@ header a {
 
 }
 
-
-button:hover {
-  background: #9B9B9B;
-}
-
 #iframeContainer {
   display: none;
 }
