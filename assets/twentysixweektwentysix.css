@@ -1,0 +1,78 @@
+/* Copyright (C) 2026 The Ragyxo Foundation */
+
+:root {
+  --bbjprojek: #1D4F91;
+  --rabbau: #5B6236;
+  --annas: #D01C7C;
+  --ragyxo: #73381D;
+  --ffamily: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, "IBM Plex Mono", "Liberation Mono", monospace !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bbjprojek: #6CACE4;
+    --rabbau: #9CAF88;
+    --annas: #E371AE;
+    --ragyxo: #AD7C59;
+  }
+}
+
+p.prox {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold !important;
+}
+
+a:link {
+  font-weight: bold !important;
+}
+
+@media screen and (max-width: 800px) {
+  p.prox {
+    font-size: 1.56rem;
+  }
+}
+
+/* A. P colors */
+p.a {
+  color: var(--bbjprojek);
+}
+
+p.b {
+  color: var(--branding);
+}
+
+p.c {
+  color: var(--annas);
+}
+
+a:hover {
+  transition: filter 0.2s ease;
+  filter: blur(3px);
+}
+
+/* B. Non-branding footer */
+hr.foot {
+  width: 28vh;
+  color: var(--heading);
+}
+
+/* C. Logo effect */
+.wander {
+  animation: drift 12s infinite ease-in-out;
+}
+
+@keyframes drift {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  33% {
+    transform: translate(15px, -10px) rotate(0.5deg);
+  }
+  66% {
+    transform: translate(-12px, 8px) rotate(-0.5deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
